@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="section" id="section1">
+        <div class="column left">
+            <h1>Elevator Interface</h1>
+            <p>This project examines the user interface of an elevator inside a university building. After user obeservations and interview, we create two archetypal user personas and a story board demonstrating a user journey.</p>
+        </div>
+        <div class="column right">
+            <img src="images/elevator.png" alt="Two people standing in front of an elevator">
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <h2 class="left-texth"></h2>
+        <h2 class="left-texth">The Interface:</h2>
+        <p class="left-textp">
+            Many elevators on our university campus require card access to get to certain floors, all time or after certain hours. This prevents students looking for study spaces to accidentally wander into an office or a meeting room, and protects public and private property stored in certain locations. 
+            To access those floors, a user needs to swipe their campus ID card first, then press the button to the corresponding floor. The following sketch is an example from the library elevator.
+        </p>
+        <div class="screenshots">
+            <figure>
+                <img src="images/sketch.png" alt="Sketch of the elevator interface, contains call buttons on one side and a card reader on the other">
+            </figure>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <hr class="line">
+        <h2 class="left-texth">
+            Conversation with Users:
+        </h2>
+        <p class="left-textp">We observed and interviewed three users while they were using the interface. 
+            Based on the observations, users are generally familiar with the interface and have no trouble using it, but our conversations revealed some potential issues. 
+            The following script is a summary of those interviews.</p>
+        <div class="narrow">
+            <img src="images/convo1.png" alt="Interviewer: Can you describe your first interaction with this interface? User: I was very confused, I didn’t know it required card access so I pressed and the elevator didn’t move. Another student in the elevator told me I had to swipe first.">
+            <img src="images/convo2.png" alt="Interviewer: How often do you use this interface? User:A few times per week.">
+            <img src="images/convo3.png" alt="Interviewer: How do you see other people interact with this interface? User: Most of the times I see people just press and it works. Also at this point people know which floors needs card access after what hours.">
+            <img src="images/convo4.png" alt="Interviewer: What do you like/dislike about this interface? User: I like that it has labels of what each floor is for. But the card reader is located far away from the buttons with emergency stuff in between, so I didn’t think they were related at first. It’s also unclear which way you are supposed to swipe. But I guess it’s easy to learn, you remember after the first time.">
+            <img src="images/convo5.png" alt="Interviewer: How would you describe your state of mind when you need to use this interface?  User: I’m usually in a rush, heading to a meeting or a class.">
+
+        </div>
+        
+    </div>
+    <div class="section" id="section4">
+        <hr class="line">
+        <h2 class="left-texth">
+            Personas:
+        </h2>
+        <p class="left-textp">
+           Based on the above observations and converstions, we can roughly categorize the typical users into two archetypal personas. 
+           Let's name them Sophie and Kevin, where Sophie is a new user while Kevin is a frequent user.
+        </p>
+        <div class="image-grid">
+            <img src="images/persona1.png" alt="Persona 1 empathy map: Sophie is a new student heading to a project meeting, this is her first time in the building. She is running late because she had some trouble finding the building.">
+            <img src="images/persona2.png" alt="Persona 2 empathy map: Kevin is a Junior and a frequent visitor of the building. He is having a study session with his friends.">
+        </div>
+    </div>
+    <div class="section" id="section6">
+        <hr class="line">
+        <h2 class="left-texth">
+            Story 
+        </h2>
+        <p class="left-textp">
+            Now let's recreate Sophie's interaction with the interface as a new user through a short story.
+        </p>
+        <div class="narrow1">
+            <img src="images/story.png" alt="storyboard: 1: Sophie is on her way to her first project meeting as a college Freshman. She enters the elevator and presses the button for the third floor. The button does not light up. 
+            2: Sophie double checks her phone and sees that she is heading to the right place, and that she's running late.
+            3: Sophie asks for help from another student in the elevator, who points to the card reader on the other side.
+            4: Sophie sipes her ID.
+            5: Sophie presses the button again, still no reaction. 
+            6: She swipes again the other way.
+            7: Sophie presses the button. This time it lights up.
+            8: Sophie feels a little embarrasses about the encounter. The other student agrees that she didn't about the swipe access either.">
+        </div>
+    </div>
+    <footer>
+        <p>Credits: Storyboard images partially generated by Boord AI  
+        </p>
+    </footer>
+</body>
+</html>
